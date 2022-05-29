@@ -9,7 +9,7 @@ hello("human");
 double g = 4;
 double s = g*g;
 Square l = new Square(5);
-Rectangle m = new Rectangle(8,16);
+Rectangle m = new Rectangle(666,13);
 
 System.out.println("Площадь квадрата со стороной "+g+" = "+s);
 System.out.println("Площадь квадрата со стороной "+l.a+" равна "+l.S());
