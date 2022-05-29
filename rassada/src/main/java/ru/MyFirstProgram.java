@@ -6,23 +6,19 @@ System.out.println("Hello fucking World!");
 hello("world");
 hello("user");
 hello("human");
-double l = 8;
-double s = l*l;
-double a = 4;
-double b = 7;
-System.out.println("Площадь квадрата со стороной "+l+" = "+s);
-System.out.println("Площадь квадрата со стороной "+l+" равна "+S(l));
-System.out.println("Площадь прямоугольника со сторонами "+a+" и "+b+" равна "+S(a, b));
+double g = 4;
+double s = g*g;
+Square l = new Square(5);
+Rectangle m = new Rectangle(8,16);
+
+System.out.println("Площадь квадрата со стороной "+g+" = "+s);
+System.out.println("Площадь квадрата со стороной "+l.a+" равна "+l.S());
+System.out.println("Площадь прямоугольника со сторонами "+m.a+" и "+m.b+" равна "+m.R());
     }
 
 public static void hello(String somebody) { 
     System.out.println("Hello Fucking "+ somebody + "!");
 }
-public static double S(double a) {
-    return a*a;
-    
-}
-public static double S(double a, double b){
-    return a*b;
-}
+
+
 }
