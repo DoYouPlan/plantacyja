@@ -5,5 +5,5 @@ repositories {
     mavenCentral()
 }
 dependencies {
-    compile 'org.testng:testng:7.6.0'
+    implementation 'org.testng:testng:7.6.0'
 }
